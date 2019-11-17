@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
     @RequestMapping("/toLogin.do")
     public String toLogin(){
+        System.out.println("heiheiehei");
         return "login";
     }
 }
